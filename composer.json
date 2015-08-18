@@ -1,0 +1,42 @@
+{
+    "name"              : "consigliere/appbase",
+    "description"       : "appbase",
+    "keywords"          : [
+        "consigliere",
+        "appbase"
+    ],
+    "homepage"          : "https://github.com/consigliere/appbase",
+    "license"           : "MIT",
+    "authors"           : [
+        {
+            "name"     : "anonymoussc",
+            "email"    : "50c5ac69@opayq.com",
+            "homepage" : "http://anonymoussc.github.io/",
+            "role"     : "Developer"
+        }
+    ],
+    "require"           : {
+        "php"                  : ">=5.4.0",
+        "illuminate/support"   : "5.0.*",
+        "illuminate/contracts" : "5.0.*"
+    },
+    "require-dev"       : {
+        "phpunit/phpunit"    : "4.*",
+        "scrutinizer/ocular" : "~1.1"
+    },
+    "autoload"          : {
+        "classmap" : [
+            "src/seeds",
+            "src/controllers"
+        ],
+        "psr-4"    : {
+            "Consigliere\\Appbase\\" : "src"
+        }
+    },
+    "autoload-dev"      : {
+        "psr-4" : {
+            "Consigliere\\Appbase\\Test\\" : "tests"
+        }
+    },
+    "minimum-stability" : "stable"
+}
