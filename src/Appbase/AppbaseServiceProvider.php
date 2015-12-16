@@ -1,5 +1,7 @@
-<?php namespace Appbase;
+<?php namespace Consigliere\Appbase;
 
+use ReflectionClass;
+use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
 class AppbaseServiceProvider extends ServiceProvider
@@ -19,7 +21,13 @@ class AppbaseServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        // Find path to the package
+        $componenentsFileName = with(new ReflectionClass('\Consigliere\Appbase\AppbaseServiceProvider'))->getFileName();
+        $componenentsPath = dirname($componenentsFileName);
 
+        $this->loadViewsFrom($componenentsPath . '/../views', 'appbase');
+
+        //include $componenentsPath . '/../routes.php';
     }
 
     /**
@@ -29,7 +37,8 @@ class AppbaseServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->register(\Onderdelen\Dashboard\DashboardServiceProvider::class);
+        $this->app->register(\Onderdelen\JwtAuth\JwtAuthServiceProvider::class);
     }
 
     /**
