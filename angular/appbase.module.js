@@ -9,7 +9,11 @@
         .module('appbase', [
             /* Shared */
             'appFoundation',
-            'widgets'
+            'widgets',
+
+            /* service components */
+            'dashboard',
+            'jwtAuth'
         ]);
 
 })();
