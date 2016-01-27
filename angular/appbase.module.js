@@ -1,4 +1,5 @@
 /**
+ * appbase.module.js
  * Created by anonymous on 08/12/15 16:58.
  */
 
@@ -13,7 +14,7 @@
 
             /* service components */
             'dashboard',
-            'jwtAuth'
+            'seneschal'
         ]);
 
 })();
