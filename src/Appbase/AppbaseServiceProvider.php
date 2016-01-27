@@ -38,7 +38,7 @@ class AppbaseServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->register(\Onderdelen\Dashboard\DashboardServiceProvider::class);
-        $this->app->register(\Onderdelen\JwtAuth\JwtAuthServiceProvider::class);
+        $this->app->register(\Seneschal\SeneschalServiceProvider::class);
     }
 
     /**
