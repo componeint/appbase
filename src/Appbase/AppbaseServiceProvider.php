@@ -1,4 +1,4 @@
-<?php namespace Consigliere\Appbase;
+<?php namespace Onderdelen\Appbase;
 
 use ReflectionClass;
 use Illuminate\Foundation\AliasLoader;
@@ -22,7 +22,7 @@ class AppbaseServiceProvider extends ServiceProvider
     public function boot()
     {
         // Find path to the package
-        $componenentsFileName = with(new ReflectionClass('\Consigliere\Appbase\AppbaseServiceProvider'))->getFileName();
+        $componenentsFileName = with(new ReflectionClass('\Onderdelen\Appbase\AppbaseServiceProvider'))->getFileName();
         $componenentsPath = dirname($componenentsFileName);
 
         $this->loadViewsFrom($componenentsPath . '/../views', 'appbase');

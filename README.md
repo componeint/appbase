@@ -15,14 +15,14 @@ PSRs you support to avoid any confusion with users and contributors.
 Via Composer
 
 ``` bash
-$ composer require consigliere/appbase
+$ composer require onderdelen/appbase
 ```
 
 ## Usage
 
 ``` php
-$appbase = new Consigliere\Appbase();
-echo $appbase->echoPhrase('Hello, Consigliere!');
+$appbase = new Onderdelen\Appbase();
+echo $appbase->echoPhrase('Hello, Onderdelen!');
 ```
 
 ## Change log
@@ -52,17 +52,17 @@ If you discover any security related issues, please email 50c5ac69@opayq.com ins
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/consigliere/appbase.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/onderdelen/appbase.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/consigliere/appbase/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/consigliere/appbase.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/consigliere/appbase.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/consigliere/appbase.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/onderdelen/appbase/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/onderdelen/appbase.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/onderdelen/appbase.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/onderdelen/appbase.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/consigliere/appbase
-[link-travis]: https://travis-ci.org/consigliere/appbase
-[link-scrutinizer]: https://scrutinizer-ci.com/g/consigliere/appbase/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/consigliere/appbase
-[link-downloads]: https://packagist.org/packages/consigliere/appbase
-[link-author]: https://github.com/consigliere
+[link-packagist]: https://packagist.org/packages/onderdelen/appbase
+[link-travis]: https://travis-ci.org/onderdelen/appbase
+[link-scrutinizer]: https://scrutinizer-ci.com/g/onderdelen/appbase/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/onderdelen/appbase
+[link-downloads]: https://packagist.org/packages/onderdelen/appbase
+[link-author]: https://github.com/onderdelen
 [link-contributors]: ../../contributors

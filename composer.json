@@ -1,17 +1,17 @@
 {
-  "name"             : "consigliere/appbase",
+  "name"             : "onderdelen/appbase",
   "description"      : "appbase",
   "keywords"         : [
-    "consigliere",
+    "onderdelen",
     "appbase"
   ],
-  "homepage"         : "https://github.com/consigliere/appbase",
+  "homepage"         : "https://github.com/onderdelen/appbase",
   "license"          : "MIT",
   "authors"          : [
     {
       "name"    : "anonymoussc",
       "email"   : "50c5ac69@opayq.com",
-      "homepage": "https://github.com/consigliere/",
+      "homepage": "https://github.com/onderdelen/",
       "role"    : "Developer"
     }
   ],
@@ -33,12 +33,12 @@
       "tests"
     ],
     "psr-4"   : {
-      "Consigliere\\Appbase\\": "src"
+      "Onderdelen\\Appbase\\": "src"
     }
   },
   "autoload-dev"     : {
     "psr-4": {
-      "Consigliere\\Appbase\\Test\\": "tests"
+      "Onderdelen\\Appbase\\Test\\": "tests"
     }
   },
   "minimum-stability": "stable"
