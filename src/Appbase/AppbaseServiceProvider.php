@@ -1,4 +1,10 @@
-<?php namespace Onderdelen\Appbase;
+<?php
+/**
+ * AppbaseServiceProvider.php
+ * Created by anonymous on 08/12/15 16:58.
+ */
+
+namespace Onderdelen\Appbase;
 
 use ReflectionClass;
 use Illuminate\Foundation\AliasLoader;
@@ -27,7 +33,7 @@ class AppbaseServiceProvider extends ServiceProvider
 
         $this->loadViewsFrom($componenentsPath . '/../views', 'appbase');
 
-        //include $componenentsPath . '/../routes.php';
+        // include $componenentsPath . '/../routes.php';
     }
 
     /**
@@ -38,7 +44,7 @@ class AppbaseServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->register(\Onderdelen\Dashboard\DashboardServiceProvider::class);
-        $this->app->register(\Seneschal\SeneschalServiceProvider::class);
+        $this->app->register(\Onderdelen\Seneschal\SeneschalServiceProvider::class);
     }
 
     /**
