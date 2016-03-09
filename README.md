@@ -15,14 +15,14 @@ PSRs you support to avoid any confusion with users and contributors.
 Via Composer
 
 ``` bash
-$ composer require onderdelen/appbase
+$ composer require componeint/appbase
 ```
 
 ## Usage
 
 ``` php
-$appbase = new Onderdelen\Appbase();
-echo $appbase->echoPhrase('Hello, Onderdelen!');
+$appbase = new Componeint\Appbase();
+echo $appbase->echoPhrase('Hello, Componeint!');
 ```
 
 ## Change log
@@ -52,17 +52,17 @@ If you discover any security related issues, please email 50c5ac69@opayq.com ins
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/onderdelen/appbase.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/componeint/appbase.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/onderdelen/appbase/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/onderdelen/appbase.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/onderdelen/appbase.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/onderdelen/appbase.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/componeint/appbase/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/componeint/appbase.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/componeint/appbase.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/componeint/appbase.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/onderdelen/appbase
-[link-travis]: https://travis-ci.org/onderdelen/appbase
-[link-scrutinizer]: https://scrutinizer-ci.com/g/onderdelen/appbase/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/onderdelen/appbase
-[link-downloads]: https://packagist.org/packages/onderdelen/appbase
-[link-author]: https://github.com/onderdelen
+[link-packagist]: https://packagist.org/packages/componeint/appbase
+[link-travis]: https://travis-ci.org/componeint/appbase
+[link-scrutinizer]: https://scrutinizer-ci.com/g/componeint/appbase/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/componeint/appbase
+[link-downloads]: https://packagist.org/packages/componeint/appbase
+[link-author]: https://github.com/componeint
 [link-contributors]: ../../contributors

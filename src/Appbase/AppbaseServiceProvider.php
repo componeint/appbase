@@ -4,7 +4,7 @@
  * Created by anonymous on 08/12/15 16:58.
  */
 
-namespace Onderdelen\Appbase;
+namespace Componeint\Appbase;
 
 use ReflectionClass;
 use Illuminate\Foundation\AliasLoader;
@@ -28,7 +28,7 @@ class AppbaseServiceProvider extends ServiceProvider
     public function boot()
     {
         // Find path to the package
-        $componenentsFileName = with(new ReflectionClass('\Onderdelen\Appbase\AppbaseServiceProvider'))->getFileName();
+        $componenentsFileName = with(new ReflectionClass('\Componeint\Appbase\AppbaseServiceProvider'))->getFileName();
         $componenentsPath = dirname($componenentsFileName);
 
         $this->loadViewsFrom($componenentsPath . '/../views', 'appbase');
@@ -43,8 +43,8 @@ class AppbaseServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register(\Onderdelen\Dashboard\DashboardServiceProvider::class);
-        $this->app->register(\Onderdelen\Seneschal\SeneschalServiceProvider::class);
+        $this->app->register(\Componeint\Dashboard\DashboardServiceProvider::class);
+        $this->app->register(\Componeint\Seneschal\SeneschalServiceProvider::class);
     }
 
     /**

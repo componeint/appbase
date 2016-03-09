@@ -1,17 +1,17 @@
 {
-  "name"             : "onderdelen/appbase",
+  "name"             : "componeint/appbase",
   "description"      : "appbase",
   "keywords"         : [
-    "onderdelen",
+    "componeint",
     "appbase"
   ],
-  "homepage"         : "https://github.com/onderdelen/appbase",
+  "homepage"         : "https://github.com/componeint/appbase",
   "license"          : "MIT",
   "authors"          : [
     {
       "name"    : "anonymoussc",
       "email"   : "50c5ac69@opayq.com",
-      "homepage": "https://github.com/onderdelen/",
+      "homepage": "https://github.com/componeint/",
       "role"    : "Developer"
     }
   ],
@@ -33,12 +33,12 @@
       "tests"
     ],
     "psr-4"   : {
-      "Onderdelen\\Appbase\\": "src"
+      "Componeint\\Appbase\\": "src"
     }
   },
   "autoload-dev"     : {
     "psr-4": {
-      "Onderdelen\\Appbase\\Test\\": "tests"
+      "Componeint\\Appbase\\Test\\": "tests"
     }
   },
   "minimum-stability": "stable"
